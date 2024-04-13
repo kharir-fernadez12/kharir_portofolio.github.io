@@ -1,0 +1,144 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+@keyframes slideUpDown {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: -50px; /* Geser ke atas sejauh 50px */
+    }
+    100% {
+        top: 50px; /* Geser ke bawah sejauh 50px */
+    }
+}
+.container {
+    margin: 50px;
+    height: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    position: relative; /* Set position to relative */
+    top: -10px; /* Negative value to move it upwards */
+    left: -100px; /* Negative value to move it to the left */
+}
+
+
+
+/* Style the navbar links */
+.nav-pills .nav-item .nav-link {
+    color: #c91010; /* Text color */
+    font-weight: bold; /* Bold font */
+    padding: 10px; /* Padding for spacing */
+}
+
+/* Hover effect */
+.nav-pills .nav-item .nav-link:hover {
+    background-color: #3017be; /* Background color on hover */
+    color: #01c711; /* Text color on hover */
+}
+
+/* Active link style */
+.nav-pills .nav-item .nav-link.active {
+    background-color: #007bff; /* Active link background color */
+    color: #bb1717; /* Active link text color */
+}
+
+
+nav ul {
+    list-style-type: none;
+  
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+nav ul li a {
+    color: #0a0a0a;
+    text-decoration:none;
+    
+}
+
+section {
+    padding: 20px;
+    
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+}
